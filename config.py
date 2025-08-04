@@ -2,8 +2,8 @@ import os
 
 class Config(object):
 ####Dynamic Configs Variables (Don't Change)####
-    BOT_TOKEN = os.environ.get("BOT_TOKEN")
-    DB_NAME = os.environ.get("DB_NAME")
+    BOT_TOKEN = os.environ.get("8406806534:AAHah2cTuKt2tLteuquzqPsgIMzoDPPiTCs")
+    DB_NAME = os.environ.get("suraj")
     
 ####Static Configs Variables(Changeable)####
     API_ID = 24869695 #API ID
@@ -18,4 +18,5 @@ class Config(object):
     IV = b'*}~&;&$;*:-![@&>' #IV
 
     TASK_LIMIT = 5 #Multiple Task Limit at 1 time
+
 
