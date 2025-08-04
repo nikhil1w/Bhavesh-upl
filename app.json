@@ -1,0 +1,28 @@
+{
+    "name": "Text Uploader 『MASTER』BOT",
+    "description": "Download videos from various websites using this Telegram bot.",
+    "logo": "https://telegra.ph/file/32f106d692ff33700c464.jpg",
+    "keywords": [
+        "pyrogram",
+        "docker"
+    ],
+    "stack": "container",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Enter your Bot Token",
+            "required": true
+        },
+        "DB_NAME": {
+            "description": "Enter your DB Name",
+            "required": true
+        }
+    },
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "standard-2x"
+        }
+    },
+    "addons": [],
+    "buildpacks": []
+}
